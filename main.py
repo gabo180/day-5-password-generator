@@ -29,11 +29,11 @@ for symbol in range (1, nr_symbols+1):
 
 
 random_password_list = []
-for random_password in range (1, len(password_list)+1):
+for char in range (1, len(password_list)+1):
   random_password_list.append(random.choice(password_list))
 
 password = ''.join(random_password_list)
 
 print(f"Your password is: {password}")
 
-##The teache used random.shuffle() function.
+##The teacher used random.shuffle() function.
