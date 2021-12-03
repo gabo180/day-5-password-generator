@@ -27,6 +27,11 @@ for number in range (1, nr_numbers+1):
 for symbol in range (1, nr_symbols+1):
   password_list.append(random.choice(symbols))
 
-print(password_list)
-password = ''.join(password_list)
+
+random_password_list = []
+for random_password in range (1, len(password_list)+1):
+  random_password_list.append(random.choice(password_list))
+
+password = ''.join(random_password_list)
+
 print(password)
