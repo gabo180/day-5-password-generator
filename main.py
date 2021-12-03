@@ -34,4 +34,6 @@ for random_password in range (1, len(password_list)+1):
 
 password = ''.join(random_password_list)
 
-print(password)
+print(f"Your password is: {password}")
+
+##The teache used random.shuffle() function.
